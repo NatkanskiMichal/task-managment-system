@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/style.css"/>
+    <title>Project</title>
+</head>
+
+<body>
+   <div class="container">
+
+       <div class="wrapper-app">
+        <h3 class="taskDone">Liczba zarezerwowanych zadań: <span class="taskAmount">0</span></h3>
+       
+        <form>
+            <div class="form-group">
+                <label for="tasknew" class="taskMainLabel label">Dodaj Zadanie</label>
+                <input type="text" id="taskNew" placeholder="Dodaj tytuł zadania.." class="form-control taskTitle"/>
+                <input type="text" placeholder="Dodaj opis zadania.." class="form-control taskDescription"/>
+                <label for="taskPriority" class="label">Ustal Priorytet</label>
+                <select id="taskPriority" class="form-control taskPrioritySelect">
+                    <option>Wysoki</option>
+                    <option selected="selected">Normalny</option>
+                    <option>Niski</option>
+                </select>
+                <button type="button" class="btn btn-success btn-block taskAdd">Dodaj</button>
+            </div>
+        </form>
+       
+        <div class="taskList">
+            <h2 class="text-center">Lista zadań: <small class="taskInProgress">0 zadań w toku...</small></h2>
+            <ul class="taskItems"></ul>
+            <button type="button" class="btn btn-danger taskClear">Wyczyść <i class="fa fa-trash"></i></button>
+        </div>
+       </div>
+   </div>
+   
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: 300;
+    background-color: rgb(237, 214, 128);
+    font-size: 1em;
+    font-family: arial;
+}
+
+
+.container
+{
+    width: 90%;
+    margin-top: 5vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.wrapper-app
+{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+
+.wrapper-app h3, h2
+{
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    min-height: 40px;
+    line-height: 40px;
+    background-color: #17252A;
+    text-align: center;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.form-group
+{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.label
+{
+    text-align: center;
+    color: #373737;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.form-control
+{
+    margin: 10px; 
+    padding: 15px; 
+}
+
+.taskPrioritySelect
+{
+    color: #373737;
+    padding: 15px;
+    height: 45px;
+    background-color: white;
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.btn-success
+{
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #F4F4F4;
+    font-size: 1em;
+    width: 200px;
+}
+
+.btn-danger
+{
+    padding: 5px;
+    background-color: #F4F4F4;
+    margin: 5px;
+}
+
+.error
+{  
+    font-size: 16px;
+}
+
+ul
+{
+    list-style: none;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+li
+{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.titleStyle
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.taskClear
+{
+    float: right;
+    border: none;
+    background-color: #17252A;
+    color: white;
+    font-size: .8em;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.taskAdd
+{
+    margin-bottom: 10%;
+}
+
+.taskFinished 
+{
+ text-decoration: line-through;    
+}
+
+.low-priority
+{
+    background-color: rgb(242, 255, 255);
+}
+
+.medium-priority
+{
+    background-color: rgb(191, 193, 178); 
+}
+
+.high-priority
+{
+    background-color: rgb(86, 87, 91); 
+}
