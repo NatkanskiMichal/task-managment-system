@@ -66,6 +66,7 @@ const taskManagmentSystem = () => {
         const taskElements = document.querySelectorAll('.taskFinished');
        taskElements.forEach(el => {
            el.parentNode.removeChild(el);
+           taskInProgress.textContent = `${--taskAmount} w toku..`;
        });
     }
 
