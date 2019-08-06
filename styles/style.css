@@ -60,7 +60,7 @@ body
 
 
 
-.wrapper-app h3, h2
+.wrapper-app h1, h2
 {
     font-size: 14px;
     padding: 5px;
@@ -120,23 +120,19 @@ body
 
 .btn-success
 {
-    padding: 5px;
+    padding: 10px;
     margin: 0 auto;
     background-color: #F4F4F4;
     font-size: 1em;
     width: 200px;
+    border: none;
 }
 
 .btn-danger
 {
-    padding: 5px;
+    padding: 10px;
     background-color: #F4F4F4;
     margin: 5px;
-}
-
-.error
-{  
-    font-size: 16px;
 }
 
 ul
@@ -186,15 +182,15 @@ li
 
 .low-priority
 {
-    background-color: rgb(242, 255, 255);
+    background-color: rgb(240, 240, 240);
 }
 
 .medium-priority
 {
-    background-color: rgb(191, 193, 178); 
+    background-color: rgb(200, 200, 200); 
 }
 
 .high-priority
 {
-    background-color: rgb(86, 87, 91); 
+    background-color: rgb(160, 160, 160); 
 }
