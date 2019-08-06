@@ -12,14 +12,13 @@ const taskManagmentSystem = () => {
     const taskItems = document.querySelector('.taskItems');
 
     const addTask = () => {
-        let taskTitle = document.querySelector('.taskTitle');
+        const taskTitle = document.querySelector('.taskTitle');
 
-        let taskDescription = document.querySelector('.taskDescription');
+        const taskDescription = document.querySelector('.taskDescription');
 
-        let taskPriority = document.querySelector('#taskPriority');
-       
-
-        let error = document.querySelector('.taskMainLabel');
+        const taskPriority = document.querySelector('#taskPriority');
+    
+        const error = document.querySelector('.taskMainLabel');
 
          if (taskTitle.value === '') {
             error.textContent = "Podaj tytuł zadania :)";
@@ -27,7 +26,7 @@ const taskManagmentSystem = () => {
             error.textContent = 'Dodaj Zadanie';
 
             const checkPriority = (priority) => {
-                let task = document.createElement('li');
+                const task = document.createElement('li');
                 task.innerHTML = `<span class="titleStyle">${taskTitle.value}</span></br>${taskDescription.value}</br> ${data}`; 
                 task.classList.add(priority);
                 taskItems.appendChild(task);
